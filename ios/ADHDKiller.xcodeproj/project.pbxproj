@@ -1,0 +1,40 @@
+// !$*UTF8*$!
+{ archiveVersion = 1; classes = {}; objectVersion = 56; objects = {
+826A62BFA412FCE225FD6F8C = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ADHDKiller/ADHDKillerApp.swift"; sourceTree = "<group>"; };
+51C6292BDDE2749C3CD48AAB = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ADHDKiller/ContentView.swift"; sourceTree = "<group>"; };
+EAEFABF6B3D763F4ABE2D310 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ADHDKiller/FocusStore.swift"; sourceTree = "<group>"; };
+4CEA9250FFFD0C5DE2D0E888 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Shared/FocusAttributes.swift"; sourceTree = "<group>"; };
+8DDD5108244CBF1A725E57FC = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FocusActivity/FocusWidget.swift"; sourceTree = "<group>"; };
+24ADA097D5DF411BB72CFADB = { isa = PBXFileReference; explicitFileType = wrapper.application; path = ADHDKiller.app; sourceTree = BUILT_PRODUCTS_DIR; };
+5C870EC9A9E2771055B12D62 = { isa = PBXFileReference; explicitFileType = wrapper.app-extension; path = FocusActivity.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+FBDC4F23F93125BBEEAE800C = { isa = PBXGroup; children = (24ADA097D5DF411BB72CFADB,5C870EC9A9E2771055B12D62,); name = Products; sourceTree = "<group>"; };
+B28B7AF69320201D1CF206EB = { isa = PBXGroup; children = (826A62BFA412FCE225FD6F8C,51C6292BDDE2749C3CD48AAB,EAEFABF6B3D763F4ABE2D310,4CEA9250FFFD0C5DE2D0E888,8DDD5108244CBF1A725E57FC,FBDC4F23F93125BBEEAE800C,); sourceTree = "<group>"; };
+AC081923966C69E2DE5DAD2E = { isa = PBXBuildFile; fileRef = 826A62BFA412FCE225FD6F8C; };
+294206F57B9E8296F0DEF8AD = { isa = PBXBuildFile; fileRef = 51C6292BDDE2749C3CD48AAB; };
+4E3573C5CDAEEE0F51F0DCCC = { isa = PBXBuildFile; fileRef = EAEFABF6B3D763F4ABE2D310; };
+5C71BF7829D71B22AC8E732E = { isa = PBXBuildFile; fileRef = 4CEA9250FFFD0C5DE2D0E888; };
+BFD35BFC3445393CC52550C1 = { isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (AC081923966C69E2DE5DAD2E,294206F57B9E8296F0DEF8AD,4E3573C5CDAEEE0F51F0DCCC,5C71BF7829D71B22AC8E732E,); runOnlyForDeploymentPostprocessing = 0; };
+F74A54ABC62DFB3AF4BF6097 = { isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+BCACE01831AF6440D5A6C0B7 = { isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+F3C3E7D90FC7C85F3E76B42D = { isa = PBXBuildFile; fileRef = 4CEA9250FFFD0C5DE2D0E888; };
+0FE3A394F63069FBD67D2F17 = { isa = PBXBuildFile; fileRef = 8DDD5108244CBF1A725E57FC; };
+313813BD050953ABC1D8010B = { isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (F3C3E7D90FC7C85F3E76B42D,0FE3A394F63069FBD67D2F17,); runOnlyForDeploymentPostprocessing = 0; };
+F859374CD21C98D1879033E5 = { isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+B03D153BD12BBE55933ED3EB = { isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+B5F235D5B8CC63C82183E49E = { isa = PBXBuildFile; fileRef = 5C870EC9A9E2771055B12D62; settings = { ATTRIBUTES = (RemoveHeadersOnCopy,); }; };
+CFFF27C96089B93150F3553B = { isa = PBXCopyFilesBuildPhase; buildActionMask = 2147483647; dstPath = ""; dstSubfolderSpec = 13; files = (B5F235D5B8CC63C82183E49E,); name = "Embed App Extensions"; runOnlyForDeploymentPostprocessing = 0; };
+D799BAE6088A90139B415FCC = { isa = PBXContainerItemProxy; containerPortal = 98F54143AB4E86B28C3AFEE0; proxyType = 1; remoteGlobalIDString = C6E0E1B935D76CB1A76E87D4; remoteInfo = FocusActivity; };
+DE58E2B17C19600779694943 = { isa = PBXTargetDependency; target = C6E0E1B935D76CB1A76E87D4; targetProxy = D799BAE6088A90139B415FCC; };
+F2F23230CE89191FF3405410 = { isa = PBXNativeTarget; buildConfigurationList = 3A14292DA7E93AF7875A35F4; buildPhases = (BFD35BFC3445393CC52550C1,BCACE01831AF6440D5A6C0B7,F74A54ABC62DFB3AF4BF6097,CFFF27C96089B93150F3553B,); buildRules = (); dependencies = (DE58E2B17C19600779694943,); name = ADHDKiller; productName = ADHDKiller; productReference = 24ADA097D5DF411BB72CFADB; productType = "com.apple.product-type.application"; };
+597B56FFA7BA36F298EC190F = { isa = XCBuildConfiguration; buildSettings = {PRODUCT_NAME = "$(TARGET_NAME)";PRODUCT_BUNDLE_IDENTIFIER = com.serenawow11.adhdkiller;INFOPLIST_FILE = ADHDKiller/Info.plist;CODE_SIGN_STYLE = Automatic;SWIFT_VERSION = 5.0;IPHONEOS_DEPLOYMENT_TARGET = 17.0;TARGETED_DEVICE_FAMILY = 1;GENERATE_INFOPLIST_FILE = NO;LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";}; name = Debug; };
+6281C5BA312CDFFC65BBCBF7 = { isa = XCBuildConfiguration; buildSettings = {PRODUCT_NAME = "$(TARGET_NAME)";PRODUCT_BUNDLE_IDENTIFIER = com.serenawow11.adhdkiller;INFOPLIST_FILE = ADHDKiller/Info.plist;CODE_SIGN_STYLE = Automatic;SWIFT_VERSION = 5.0;IPHONEOS_DEPLOYMENT_TARGET = 17.0;TARGETED_DEVICE_FAMILY = 1;GENERATE_INFOPLIST_FILE = NO;LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";}; name = Release; };
+3A14292DA7E93AF7875A35F4 = { isa = XCConfigurationList; buildConfigurations = (597B56FFA7BA36F298EC190F,6281C5BA312CDFFC65BBCBF7,); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+C6E0E1B935D76CB1A76E87D4 = { isa = PBXNativeTarget; buildConfigurationList = A324F66745AA3554D21CE8EB; buildPhases = (313813BD050953ABC1D8010B,B03D153BD12BBE55933ED3EB,F859374CD21C98D1879033E5,); buildRules = (); dependencies = (); name = FocusActivity; productName = FocusActivity; productReference = 5C870EC9A9E2771055B12D62; productType = "com.apple.product-type.app-extension"; };
+15BD111BA2411B59B975E995 = { isa = XCBuildConfiguration; buildSettings = {PRODUCT_NAME = "$(TARGET_NAME)";PRODUCT_BUNDLE_IDENTIFIER = com.serenawow11.adhdkiller.activity;INFOPLIST_FILE = FocusActivity/Info.plist;CODE_SIGN_STYLE = Automatic;SWIFT_VERSION = 5.0;IPHONEOS_DEPLOYMENT_TARGET = 17.0;TARGETED_DEVICE_FAMILY = 1;GENERATE_INFOPLIST_FILE = NO;LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";APPLICATION_EXTENSION_API_ONLY = YES;SKIP_INSTALL = YES;}; name = Debug; };
+631D9F14A1C56B8A9B9EB980 = { isa = XCBuildConfiguration; buildSettings = {PRODUCT_NAME = "$(TARGET_NAME)";PRODUCT_BUNDLE_IDENTIFIER = com.serenawow11.adhdkiller.activity;INFOPLIST_FILE = FocusActivity/Info.plist;CODE_SIGN_STYLE = Automatic;SWIFT_VERSION = 5.0;IPHONEOS_DEPLOYMENT_TARGET = 17.0;TARGETED_DEVICE_FAMILY = 1;GENERATE_INFOPLIST_FILE = NO;LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";APPLICATION_EXTENSION_API_ONLY = YES;SKIP_INSTALL = YES;}; name = Release; };
+A324F66745AA3554D21CE8EB = { isa = XCConfigurationList; buildConfigurations = (15BD111BA2411B59B975E995,631D9F14A1C56B8A9B9EB980,); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+89E1FD6268CC0F221A2BE178 = { isa = XCBuildConfiguration; buildSettings = { SDKROOT = iphoneos; CLANG_ENABLE_MODULES = YES; SWIFT_OPTIMIZATION_LEVEL = "-Onone"; SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;}; name = Debug; };
+E6DE6C99132752C914FEF632 = { isa = XCBuildConfiguration; buildSettings = { SDKROOT = iphoneos; CLANG_ENABLE_MODULES = YES; SWIFT_OPTIMIZATION_LEVEL = "-O"; }; name = Release; };
+862894B703A6DEDF96A9DD6C = { isa = XCConfigurationList; buildConfigurations = (89E1FD6268CC0F221A2BE178,E6DE6C99132752C914FEF632,); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+98F54143AB4E86B28C3AFEE0 = { isa = PBXProject; attributes = { LastUpgradeCheck = 1600; BuildIndependentTargetsInParallel = YES; }; buildConfigurationList = 862894B703A6DEDF96A9DD6C; compatibilityVersion = "Xcode 14.0"; developmentRegion = "zh-Hans"; hasScannedForEncodings = 0; knownRegions = ("zh-Hans",en,Base,); mainGroup = B28B7AF69320201D1CF206EB; productRefGroup = FBDC4F23F93125BBEEAE800C; projectDirPath = ""; projectRoot = ""; targets = (F2F23230CE89191FF3405410,C6E0E1B935D76CB1A76E87D4,); };
+}; rootObject = 98F54143AB4E86B28C3AFEE0; }
