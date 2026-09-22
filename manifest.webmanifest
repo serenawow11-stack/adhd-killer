@@ -1,0 +1,26 @@
+{
+  "id": "./",
+  "name": "ADHD Killer · 回到此刻",
+  "short_name": "回到此刻",
+  "description": "小时目标、任务清单与使用目的计时",
+  "lang": "zh-CN",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f4f3ed",
+  "theme_color": "#234d42",
+  "icons": [
+    {
+      "src": "./icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "./icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
