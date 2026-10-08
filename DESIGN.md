@@ -11,3 +11,7 @@
 - 真数据与空状态，不填充虚构任务、效率或成就。技术说明折叠在页尾，提醒限制仍可展开查看。
 - 交互保留键盘焦点，尊重减少动态效果偏好，主要操作至少 44px。
 - 保留原 localStorage key 与数据结构。PWA 静态缓存升级到 v2。
+
+## React 迁移
+
+四个场景保持原有视觉语义，分别拆分为 IntentWindow、Timeline、ProgressBook、VoiceStage。Button、Modal、Field 为自封装 React 组件，通用布局/交互使用 Tailwind，窗/门/书/舞台几何效果使用组件样式。交互状态由 React 管理，不插入 HTML 字符串。进度条先拖动预览，再点击应用并确认，避免拖动中不断打开弹窗。
