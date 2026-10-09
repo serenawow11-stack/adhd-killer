@@ -15,6 +15,7 @@ export default defineConfig({
         globPatterns: ['**/*.{js,css,html,png,webmanifest}'],
         cleanupOutdatedCaches: true,
         navigateFallback: 'index.html',
+        navigateFallbackDenylist: [/\/journey(?:\/|$)/],
         clientsClaim: true,
         skipWaiting: false,
       },
